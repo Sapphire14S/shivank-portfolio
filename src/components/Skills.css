@@ -20,6 +20,7 @@
   border-radius: 8px;
 
   color: white;
+  box-shadow: 0 0 20px #00e5ff;
 }
 
 /* ================= HEADER ================= */
@@ -39,7 +40,7 @@
 
   border-radius: 2px;
 
-  box-shadow: 0 0 10px #00e5ff;
+  /* box-shadow: 0 0 10px #00e5ff; */
 }
 
 .skills-header h2 {
@@ -82,11 +83,11 @@
   padding: 30px;
   border-radius: 16px;
 
-  transition: all 0.3s ease;
+  /* transition: all 0.3s ease; */
 }
 
 .skill-card:hover {
-  transform: translateY(-6px);
+  /* transform: translateY(-6px); */
 
   border-color: rgba(0,229,255,0.3);
 
@@ -132,14 +133,14 @@
   font-size: 0.92rem;
   color: #ddd;
 
-  transition: 0.3s ease;
+  /* transition: 0.3s ease; */
 }
 
 .skill-tags span:hover {
   background: #00e5ff;
   color: #0f0f1a;
 
-  transform: scale(1.05);
+  /* transform: scale(1.05); */
 }
 
 /* ================= ICONS ================= */
@@ -178,14 +179,14 @@
 
   border-radius: 12px;
 
-  transition: 0.3s ease;
+  /* transition: 0.3s ease; */
 }
 
 .coding-profiles a:hover {
   background: #00e5ff;
   color: #0f0f1a;
 
-  transform: translateX(6px);
+  /* transform: translateX(6px); */
 }
 
 .coding-profiles svg {

@@ -19,7 +19,8 @@
 
   padding: 40px 50px;
   border-radius: 6px;
-  box-shadow: 0px 0px 10px #00e5ff;
+  box-shadow: 0px 0px 20px #00e5ff;
+
 }
 
 /* ===== Header like Projects ===== */
@@ -34,7 +35,7 @@
   width: 6px;
   background: #00e5ff; /* your cyan */
   border-radius: 2px;
-  box-shadow: 0 0 10px #00e5ff;
+  /* box-shadow: 0 0 10px #00e5ff; */
 }
 
 .about-header h2 {

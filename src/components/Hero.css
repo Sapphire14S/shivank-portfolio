@@ -20,7 +20,7 @@
 
   border-radius: 6px;
   overflow: hidden;
-  box-shadow: 0px 0px 10px #00e5ff;
+  box-shadow: 0px 0px 20px #00e5ff;
 }
 
 /* ================= BACKGROUND INSIDE BOX ================= */
@@ -83,7 +83,8 @@
 /* ================= NAME GRADIENT ================= */
 
 .hero-name {
-  background: linear-gradient(30deg, #60c414, #e7f703);
+  background: linear-gradient(90deg,#00e5ff,#00bcd4);
+
   background-size: 200%;
 
   -webkit-background-clip: text;

@@ -23,8 +23,7 @@
 
   color: white;
 
-  box-shadow:
-    0 20px 60px rgba(0, 0, 0, 0.4);
+  box-shadow: 0 0 20px #00e5ff;
 }
 
 /* ================= TITLE ================= */
@@ -60,11 +59,11 @@
 
   border-radius: 16px;
 
-  transition: all 0.3s ease;
+  /* transition: all 0.3s ease; */
 }
 
 .contact-card:hover {
-  transform: translateY(-6px);
+  /* transform: translateY(-6px); */
 
   border-color: rgba(0,229,255,0.3);
 
@@ -115,7 +114,7 @@
 
   font-size: 1.2rem;
 
-  transition: 0.3s ease;
+  /* transition: 0.3s ease; */
 }
 
 .social-icons a:hover {
@@ -123,7 +122,7 @@
 
   color: #0f0f1a;
 
-  transform: translateY(-4px);
+  /* transform: translateY(-4px); */
 }
 
 /* ================= CODING LINKS ================= */
@@ -148,7 +147,7 @@
 
   border-radius: 10px;
 
-  transition: 0.3s ease;
+  /* transition: 0.3s ease; */
 }
 
 .coding-links a:hover {
@@ -156,7 +155,7 @@
 
   color: #0f0f1a;
 
-  transform: translateX(6px);
+  /* transform: translateX(6px); */
 }
 
 /* ================= BOTTOM GRID ================= */

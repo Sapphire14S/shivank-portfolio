@@ -10,8 +10,13 @@ html, body, #root {
   height: 100%;
   margin: 0;
   padding: 0;
-  overflow-x: hidden;
+  /* overflow-x: hidden; */
   caret-color: transparent;
+}
+
+body {
+  overflow-x: hidden;
+  /* overflow-y: hidden; */
 }
 
 /* ================= GLOBAL TYPOGRAPHY ================= */

@@ -3,6 +3,7 @@ import "./App.css";
 
 import { Routes, Route } from "react-router-dom";
 
+import ScrollToTop from "./components/ScrollToTop";
 import Navbar from "./components/Navbar";
 
 import Hero from "./components/Hero";
@@ -30,6 +31,8 @@ function App() {
 
   return (
     <div className={darkMode ? "dark" : ""}>
+
+      <ScrollToTop />
 
       <Navbar
         toggleDark={() => setDarkMode(!darkMode)}

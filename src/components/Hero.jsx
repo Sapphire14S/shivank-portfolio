@@ -1,7 +1,7 @@
 import "./Hero.css";
 import { useEffect, useState } from "react";
 import profileImg from "/sk.png";
-import bgImg from "/bg.jpg";
+// import bgImg from "/bg.jpg";
 
 export default function Hero() {
 

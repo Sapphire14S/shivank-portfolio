@@ -16,6 +16,7 @@
   padding: 80px 100px;
   border-radius: 6px;
   color: white;
+  box-shadow: 0 0 20px #00e5ff;
 }
 
 /* ================= HEADER ================= */
@@ -31,7 +32,7 @@
   width: 6px;
   background: #00e5ff;
   border-radius: 2px;
-  box-shadow: 0 0 10px #00e5ff;
+  /* box-shadow: 0 0 10px #00e5ff; */
 }
 
 .gallery-header h2 {

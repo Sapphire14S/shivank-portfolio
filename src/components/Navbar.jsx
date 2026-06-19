@@ -31,7 +31,7 @@ export default function Navbar() {
   return (
     <nav className={`navbar ${scrolled ? "scrolled" : ""}`}>
       <div className="logo">
-        <Link to="/" onClick={() => window.scrollTo(0, 0)}>Home</Link>
+        <Link to="/">Home</Link>
       </div>
 
       <div className="nav-links">
@@ -44,19 +44,19 @@ export default function Navbar() {
         )}
 
         {/* SKILLS */}
-        <Link to="/skills" onClick={() => window.scrollTo(0, 0)}>Skills</Link>
+        <Link to="/skills">Skills</Link>
 
         {/* WORK */}
-        <Link to="/work" onClick={() => window.scrollTo(0, 0)}>Work</Link>
+        <Link to="/work">Work</Link>
 
         {/* PROJECTS */}
-        <Link to="/projects" onClick={() => window.scrollTo(0, 0)}>Projects</Link>
+        <Link to="/projects">Projects</Link>
 
         {/* CONTACT */}
-        <Link to="/contact" onClick={() => window.scrollTo(0, 0)}>Contact</Link>
+        <Link to="/contact">Contact</Link>
 
         {/* GALLERY */}
-        <Link to="/gallery" onClick={() => window.scrollTo(0, 0)}>Snapshots</Link>
+        <Link to="/gallery">Snapshots</Link>
 
         {/* RESUME */}
         <a

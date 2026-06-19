@@ -16,6 +16,7 @@
   padding: 80px 100px;
   border-radius: 6px;
   color: white;
+  box-shadow: 0 0 20px #00e5ff;
 }
 
 /* ================= HEADER ================= */
@@ -92,9 +93,9 @@
 }
 
 .project-underline {
-  width: 120px;
+  width: 80px;
   height: 4px;
-  background: #00ffee;
+  background: #00e5ff;
 }
 
 /* ================= IMAGE ================= */
