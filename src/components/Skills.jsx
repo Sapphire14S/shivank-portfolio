@@ -3,12 +3,12 @@ import "./Skills.css";
 const skillsData = [
   {
     title: "Languages",
-    skills: ["C++", "Python", "JavaScript", "SQL"],
+    skills: ["C", "C++", "Python", "Java", "JavaScript", "SQL"],
   },
 
   {
     title: "Frontend",
-    skills: ["React", "HTML", "CSS", "Responsive Design"],
+    skills: ["HTML", "CSS", "ReactJS"],
   },
 
   {
@@ -18,7 +18,7 @@ const skillsData = [
 
   {
     title: "Databases",
-    skills: ["MongoDB", "MySQL"],
+    skills: ["MySQL"],
   },
 
   {
@@ -31,7 +31,7 @@ const skillsData = [
     skills: [
       "Data Structures",
       "Algorithms",
-      "OOP",
+      "OOPs",
       "DBMS",
       "Operating Systems",
     ],
@@ -83,10 +83,9 @@ export default function Skills() {
 
             <div className="skill-tags">
 
-              <span>System Design</span>
               <span>Machine Learning</span>
               <span>Distributed Systems</span>
-              <span>Quantitative Finance</span>
+              <span>System Design</span>
 
             </div>
 
@@ -100,7 +99,7 @@ export default function Skills() {
             <div className="coding-profiles">
 
               <a
-                href="https://github.com/Vank414"
+                href="https://github.com/Sapphire14S"
                 target="_blank"
                 rel="noreferrer"
               >
@@ -108,7 +107,7 @@ export default function Skills() {
               </a>
 
               <a
-                href="#"
+                href="https://"
                 target="_blank"
                 rel="noreferrer"
               >

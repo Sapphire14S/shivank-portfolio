@@ -57,23 +57,21 @@ Make the background feel alive by shifting the gradient focus slowly over time. 
 } */
 
 
-/* WIDTH */
+/* sdghzkjs */
 ::-webkit-scrollbar {
   width: 10px;
 }
 
-/* TRACK (background) */
 ::-webkit-scrollbar-track {
-  background: #0f0f1a; /* match your dark theme */
+  background: #0f0f1a;
 }
 
-/* THUMB (the draggable part) */
 ::-webkit-scrollbar-thumb {
-  background: linear-gradient(180deg, #fefeff, #00e5ff);
-  border-radius: 10px;
+  background: #005154;
+  border-radius: 999px;
 }
 
-/* HOVER EFFECT */
 ::-webkit-scrollbar-thumb:hover {
-  background: linear-gradient(180deg, #ffffff, #00ffff);
+  background: #00757a;
 }
+
