@@ -1,4 +1,7 @@
+/* ================= GOOGLE FONTS ================= */
+
 @import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda+SC:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&family=Bruno+Ace+SC&family=Cinzel+Decorative:wght@400;700;900&family=Codystar:wght@300;400&family=Faculty+Glyphic&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Major+Mono+Display&family=Mea+Culpa&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Notable&family=Old+Standard+TT:ital,wght@0,400;0,700;1,400&family=Orbitron:wght@400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Science+Gothic:wght@100..900&family=Space+Grotesk:wght@300..700&display=swap');
+
 
 /* ================= OUTER SECTION ================= */
 
@@ -21,7 +24,7 @@
 
   padding: 80px 100px;
 
-  border-radius: 8px;
+  border-radius: 6px;
 
   color: white;
 
@@ -59,13 +62,12 @@
 
   flex: 1;
 
-  border-radius: 16px;
+  border-radius: 6px;
 
-  /* transition: all 0.3s ease; */
+  transition: all 0.3s ease;
 }
 
 .contact-card:hover {
-  /* transform: translateY(-6px); */
 
   border-color: rgba(0,229,255,0.3);
 
@@ -106,7 +108,7 @@
   align-items: center;
   justify-content: center;
 
-  border-radius: 50%;
+  border-radius: 4px;
 
   background: rgba(255,255,255,0.06);
 
@@ -116,15 +118,13 @@
 
   font-size: 1.2rem;
 
-  /* transition: 0.3s ease; */
+  transition: all 0.3s ease;
 }
 
 .social-icons a:hover {
   background: #00e5ff;
 
   color: #0f0f1a;
-
-  /* transform: translateY(-4px); */
 }
 
 /* ================= CODING LINKS ================= */
@@ -147,9 +147,9 @@
 
   padding: 12px 16px;
 
-  border-radius: 10px;
+  border-radius: 4px;
 
-  /* transition: 0.3s ease; */
+  transition: all 0.3s ease;
 }
 
 .coding-links a:hover {
@@ -157,7 +157,6 @@
 
   color: #0f0f1a;
 
-  /* transform: translateX(6px); */
 }
 
 /* ================= BOTTOM GRID ================= */
@@ -220,7 +219,7 @@
 .message-form textarea {
   padding: 16px;
 
-  border-radius: 10px;
+  border-radius: 6px;
 
   border: 1px solid #2c2c40;
 
@@ -232,7 +231,7 @@
 
   font-size: 0.95rem;
 
-  transition: 0.3s ease;
+  transition: all 0.3s ease;
 }
 
 .message-form input:focus,
@@ -252,14 +251,15 @@
 .message-form button {
   padding: 15px;
 
-  border-radius: 10px;
+  border-radius: 6px;
 
   border: none;
 
   background: linear-gradient(
     90deg,
     #05acff,
-    #00d4ff
+    #05acff,
+    #00e5ff
   );
 
   color: white;
@@ -269,12 +269,18 @@
 
   cursor: pointer;
 
-  /* transition: 0.3s ease; */
+  transition: all 0.15s ease;
+}
+
+.message-form button:active {
+  background: linear-gradient(
+    90deg,
+    #008fd6,
+    #00b7d4
+  );
 }
 
 .message-form button:hover {
-  /* transform: translateY(-3px); */
-
   box-shadow:
     0 10px 25px rgba(0,212,255,0.25);
 }
@@ -283,24 +289,33 @@
 
 @media (max-width: 900px) {
 
-  .contact-cards {
-    flex-direction: column;
-  }
-
-  .contact-bottom {
-    flex-direction: column;
+  .contact-section {
+    padding: 80px 15px;
   }
 
   .contact-wrapper {
-    padding: 60px 30px;
+    padding: 35px 25px;
   }
 
   .contact-title {
     font-size: 2rem;
+
+    margin-bottom: 40px;
+  }
+
+  .contact-cards {
+    flex-direction: column;
+
+    margin-bottom: 50px;
+  }
+
+  .contact-bottom {
+    flex-direction: column;
+
+    gap: 40px;
   }
 
   .contact-left h3 {
     font-size: 1.6rem;
   }
-
 }

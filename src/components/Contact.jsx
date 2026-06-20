@@ -66,13 +66,13 @@ export default function Contact() {
 
             <div className="social-icons">
 
-              <a
+              {/* <a
                 href="https://github.com/Cipher14S"
                 target="_blank"
                 rel="noreferrer"
               >
                 <FaGithub />
-              </a>
+              </a> */}
 
               <a
                 href="https://www.linkedin.com/in/shivank-kumar-a498ba321/"
