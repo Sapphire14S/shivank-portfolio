@@ -40,32 +40,35 @@ export default function Hero() {
   return (
     <section id="home" className="hero">
 
-  <div className="hero-wrapper">
+      <div className="hero-wrapper">
 
-    <div className="hero-bg"></div> {/* background inside box */}
+        <div className="hero-bg"></div> {/* background inside box */}
 
-    <div className="hero-content">
+        <div className="hero-content">
 
-      <img src={profileImg} alt="Shivank" className="hero-image" />
+          <img src={profileImg} alt="Shivank" className="hero-image" />
 
-      <h1>
-        {typedPrefix}
-        <span className="hero-name">{typedName}</span>
-        <span className="cursor">|</span>
-      </h1>
+          <h1>
+            {typedPrefix}
+            <span className="hero-name">
+              {typedName}</span>
+            <span className="cursor">|</span>
+          </h1>
 
-      <p className="hero-sub">
-        Computer Science Undergraduate • Software Engineering • Algorithms & Scalable Systems
-      </p>
+          <p className="hero-sub">
+            Computer Science Undergraduate • 
+            Software Engineering • 
+            Algorithms & Scalable Systems
+          </p>
 
-      <a href="#about" className="about-btn">
-        About Me ↓
-      </a>
+          <a href="#about" className="about-btn">
+            About Me ↓
+          </a>
 
-    </div>
+        </div>
 
-  </div>
+      </div>
 
-</section>
+    </section>
   );
 }

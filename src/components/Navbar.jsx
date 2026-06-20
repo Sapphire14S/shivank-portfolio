@@ -1,11 +1,9 @@
 import "./Navbar.css";
 import { useEffect, useState } from "react";
 import { Link, useLocation } from "react-router-dom";
-import { FaMoon, FaSun } from "react-icons/fa";
 
 export default function Navbar() {
   const [scrolled, setScrolled] = useState(false);
-  const [darkMode, setDarkMode] = useState(false);
 
   const location = useLocation();
 
@@ -19,14 +17,6 @@ export default function Navbar() {
     return () =>
       window.removeEventListener("scroll", handleScroll);
   }, []);
-
-  useEffect(() => {
-    if (darkMode) {
-      document.body.classList.add("dark");
-    } else {
-      document.body.classList.remove("dark");
-    }
-  }, [darkMode]);
 
   return (
     <nav className={`navbar ${scrolled ? "scrolled" : ""}`}>
@@ -67,14 +57,6 @@ export default function Navbar() {
         >
           Resume
         </a>
-
-        {/* DARK MODE */}
-        <button
-          className="theme-toggle"
-          onClick={() => setDarkMode(!darkMode)}
-        >
-          {darkMode ? <FaSun /> : <FaMoon />}
-        </button>
 
       </div>
     </nav>

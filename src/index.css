@@ -57,7 +57,7 @@ Make the background feel alive by shifting the gradient focus slowly over time. 
 } */
 
 
-/* sdghzkjs */
+/* Scrollbar */
 ::-webkit-scrollbar {
   width: 10px;
 }

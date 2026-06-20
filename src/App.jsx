@@ -1,4 +1,3 @@
-import { useState } from "react";
 import "./App.css";
 
 import { Routes, Route } from "react-router-dom";
@@ -17,6 +16,8 @@ import Gallery from "./components/Gallery";
 
 import Footer from "./components/Footer";
 
+/* ================= HOME PAGE ================= */
+
 function HomePage() {
   return (
     <>
@@ -26,39 +27,41 @@ function HomePage() {
   );
 }
 
-function App() {
-  const [darkMode, setDarkMode] = useState(false);
+/* ================= APP ================= */
 
+function App() {
   return (
-    <div className={darkMode ? "dark" : ""}>
+    <div className="app">
 
       <ScrollToTop />
 
-      <Navbar
-        toggleDark={() => setDarkMode(!darkMode)}
-      />
+      <Navbar />
 
-      <Routes>
+      <main className="main-content">
 
-        {/* HOME */}
-        <Route path="/" element={<HomePage />} />
+        <Routes>
 
-        {/* SKILLS */}
-        <Route path="/skills" element={<Skills />} />
+          {/* HOME */}
+          <Route path="/" element={<HomePage />} />
 
-        {/* WORK */}
-        <Route path="/work" element={<Work />} />
+          {/* SKILLS */}
+          <Route path="/skills" element={<Skills />} />
 
-        {/* PROJECTS */}
-        <Route path="/projects" element={<Projects />} />
+          {/* EXPERIENCE */}
+          <Route path="/work" element={<Work />} />
 
-        {/* CONTACT */}
-        <Route path="/contact" element={<Contact />} />
+          {/* PROJECTS */}
+          <Route path="/projects" element={<Projects />} />
 
-        {/* SNAPSHOTS */}
-        <Route path="/gallery" element={<Gallery />} />
+          {/* CONTACT */}
+          <Route path="/contact" element={<Contact />} />
 
-      </Routes>
+          {/* GALLERY */}
+          <Route path="/gallery" element={<Gallery />} />
+
+        </Routes>
+
+      </main>
 
       <Footer />
 

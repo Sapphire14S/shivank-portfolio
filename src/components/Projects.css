@@ -33,6 +33,7 @@
 }
 
 .projects-header h2 {
+  font-family: 'Space Grotesk';
   font-size: 2.4rem;
   line-height: 1.2;
   margin: 0;              /* remove default margin */

@@ -1,3 +1,5 @@
+/* ================= GOOGLE FONTS ================= */
+
 @import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda+SC:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&family=Bruno+Ace+SC&family=Cinzel+Decorative:wght@400;700;900&family=Codystar:wght@300;400&family=Faculty+Glyphic&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Major+Mono+Display&family=Mea+Culpa&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Notable&family=Old+Standard+TT:ital,wght@0,400;0,700;1,400&family=Orbitron:wght@400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Science+Gothic:wght@100..900&family=Space+Grotesk:wght@300..700&display=swap');
 
 
@@ -24,6 +26,10 @@
   border-radius: 6px;
   overflow: hidden;
   box-shadow: 0px 0px 20px #00e5ff;
+
+  /* box-shadow:
+    0 10px 30px rgba(0,0,0,0.25),
+    0 0 12px rgba(0,229,255,0.08); */
 }
 
 /* ================= BACKGROUND INSIDE BOX ================= */
@@ -63,7 +69,12 @@
   position: relative;
   z-index: 2;
 
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
   text-align: center;
+
   padding: 100px 40px;
   color: white;
 }
@@ -73,14 +84,19 @@
 .hero-image {
   width: 200px;
   height: 200px;
-  border-radius: 50%;
+  
   object-fit: cover;
+
+  border-radius: 50%;
   border: 2px solid rgb(255, 255, 255);
+  
+  margin-bottom: 40px;
+
   box-shadow:
     0 10px 30px rgba(0,0,0,0.4),
     0 0 20px rgba(0,229,255,0.3); /* subtle glow */
     
-  margin-bottom: 40px;
+  box-shadow: 0px 0px 20px #00e5ff;
 }
 
 /* ================= NAME GRADIENT ================= */
@@ -88,8 +104,8 @@
 .hero-name {
   background: linear-gradient(90deg,#00e5ff,#00bcd4);
 
-  font-family: 'Bruno Ace SC';
-  font-family: 'Orbitron';
+  /* font-family: 'Bruno Ace SC'; */
+  font-family: 'Orbitron', sans-serif;
   
   background-size: 200%;
 
@@ -107,30 +123,67 @@
   100% { background-position: 200%; }
 }
 
-/* ================= SUBTEXT ================= */
+/* ================= SUBTITLE ================= */
 
 .hero-sub {
   margin-top: 20px;
   color: #ddd;
+  
+  /* max-width: 400px;
+
+  line-height: 1.8; */
 }
 
 /* ================= BUTTON ================= */
 
 .about-btn {
   display: inline-block;
-  margin-top: 30px;
+  align-items: center;
+  gap: 8px;
+
+  margin-top: 40px;
+  padding: 12px 24px;
+  border: 1px solid #00e5ff;
+  border-radius: 4px;
+
   color: #00e5ff;
+  background: rgba(255, 255, 255, 0.03);
   text-decoration: none;
+
+  font-size: 1rem;
+  font-weight: 500;
+
+  transition: all 0.3s ease;
+}
+
+.about-btn:hover {
+  color: white;
+  /* background-color: #00e5ff; */
 }
 
 /* ================= RESPONSIVE ================= */
 
 @media (max-width: 768px) {
+
+  .hero-wrapper {
+    padding: 40px 20px;
+  }
+
   .hero-content {
-    padding: 60px 20px;
+    padding: 60px 10px;
+  }
+
+  .hero-image {
+    width: 150px;
+    height: 150px;
   }
 
   .hero h1 {
     font-size: 2rem;
   }
+
+  .hero-sub {
+    font-size: 0.95rem;
+  }
+
 }
