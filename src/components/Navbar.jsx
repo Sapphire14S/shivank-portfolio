@@ -37,7 +37,7 @@ export default function Navbar() {
         <Link to="/skills">Skills</Link>
 
         {/* WORK */}
-        <Link to="/work">Work</Link>
+        <Link to="/work">Experience</Link>
 
         {/* PROJECTS */}
         <Link to="/projects">Projects</Link>
