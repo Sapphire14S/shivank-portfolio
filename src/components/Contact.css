@@ -267,11 +267,11 @@
 
   cursor: pointer;
 
-  transition: 0.3s ease;
+  /* transition: 0.3s ease; */
 }
 
 .message-form button:hover {
-  transform: translateY(-3px);
+  /* transform: translateY(-3px); */
 
   box-shadow:
     0 10px 25px rgba(0,212,255,0.25);
