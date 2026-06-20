@@ -3,7 +3,6 @@ import { useRef } from "react";
 import emailjs from "@emailjs/browser";
 
 import {
-  FaGithub,
   FaInstagram,
   FaLinkedin,
 } from "react-icons/fa";
@@ -66,14 +65,6 @@ export default function Contact() {
 
             <div className="social-icons">
 
-              {/* <a
-                href="https://github.com/Cipher14S"
-                target="_blank"
-                rel="noreferrer"
-              >
-                <FaGithub />
-              </a> */}
-
               <a
                 href="https://www.linkedin.com/in/shivank-kumar-a498ba321/"
                 target="_blank"
@@ -100,6 +91,14 @@ export default function Contact() {
             <h3>Coding Profiles</h3>
 
             <div className="coding-links">
+
+              <a
+                href="https://codeforces.com/profile/Coherent14S"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Github
+              </a>
 
               <a
                 href="https://codeforces.com/profile/Coherent14S"
