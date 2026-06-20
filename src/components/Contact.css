@@ -211,6 +211,7 @@
   flex-direction: column;
 
   gap: 18px;
+  caret-color: white;
 }
 
 .message-form input,
