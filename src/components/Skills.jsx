@@ -105,13 +105,21 @@ export default function Skills() {
               >
                 GitHub
               </a>
+              
+              <a
+                href="#"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Codeforces
+              </a>
 
               <a
                 href="https://"
                 target="_blank"
                 rel="noreferrer"
               >
-                LeetCode
+                AtCoder
               </a>
 
               <a
@@ -119,7 +127,7 @@ export default function Skills() {
                 target="_blank"
                 rel="noreferrer"
               >
-                Codeforces
+                LeetCode
               </a>
 
             </div>
