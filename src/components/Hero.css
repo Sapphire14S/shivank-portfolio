@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda+SC:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&family=Bruno+Ace+SC&family=Cinzel+Decorative:wght@400;700;900&family=Codystar:wght@300;400&family=Faculty+Glyphic&family=Major+Mono+Display&family=Mea+Culpa&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Notable&family=Old+Standard+TT:ital,wght@0,400;0,700;1,400&family=Orbitron:wght@400..900&family=Science+Gothic:wght@100..900&display=swap');
+
+
 /* ================= OUTER ================= */
 
 .hero {
@@ -85,6 +88,10 @@
 .hero-name {
   background: linear-gradient(90deg,#00e5ff,#00bcd4);
 
+  /* font-family:'Cinzel Decorative'; */
+  font-family: 'Bruno Ace SC';
+  font-family: 'Orbitron';
+  
   background-size: 200%;
 
   -webkit-background-clip: text;
