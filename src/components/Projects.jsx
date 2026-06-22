@@ -2,44 +2,52 @@ import "./Projects.css";
 
 const projectsData = [
   {
-    title: "Algorithm Visualizer",
+    title: "Lunar Lander AI",
     description:
-      "An interactive web application to visualize sorting algorithms with real-time animations and step-by-step execution. Built to strengthen algorithmic intuition and provide an educational experience.",
-    image: "/project1.jpg",
-    live: "#",
-    source: "#",
+      "Trained an autonomous agent using PPO-based Reinforcement Learning to successfully navigate and land in a simulated lunar environment.",
+    image: "/lunar-lander-ai.png",
+    live: "https://github.com/Sapphire14S/Lunar-Lander-AI",
+    source: "https://github.com/Sapphire14S/Lunar-Lander-AI",
   },
   {
-    title: "Scalable Backend API",
+    title: "Know Weather",
     description:
-      "Designed and implemented a RESTful backend service with authentication, database modeling, and optimized query performance for production-level scalability.",
-    image: "/project1.jpg",
-    live: "#",
-    source: "#",
+      "Developed a responsive weather application that provides real-time weather conditions and forecasts using external weather APIs.",
+    image: "/know-weather.png",
+    live: "https://sapphire14s.github.io/know-weather/",
+    source: "https://github.com/Sapphire14S/know-weather",
   },
   {
-    title: "Quantitative Analysis Tool",
+    title: "Firm Explorer",
     description:
-      "A data-driven analytics dashboard built to explore financial datasets and simulate trading strategies using statistical modeling.",
-    image: "/project1.jpg",
-    live: "#",
-    source: "#",
+      "Developed a company exploration platform to discover firms, access key details, and simplify career research.",
+    image: "/firm-explorer.png",
+    live: "https://firm-explorer.vercel.app/",
+    source: "https://github.com/Sapphire14S/firm-explorer",
   },
   {
-    title: "Quantitative Analysis Tool",
+    title: "QR Code Generator",
     description:
-      "A data-driven analytics dashboard built to explore financial datasets and simulate trading strategies using statistical modeling.",
-    image: "/project1.jpg",
-    live: "#",
-    source: "#",
+      "Built a web application that instantly generates customizable QR codes from user-provided text, links, and contact information.",
+    image: "/qr-code-generator.png",
+    live: "https://sapphire14s.github.io/qr-code-generator/",
+    source: "https://github.com/Sapphire14S/qr-code-generator",
   },
   {
-    title: "Quantitative Analysis Tool",
+    title: "Password Generator",
     description:
-      "A data-driven analytics dashboard built to explore financial datasets and simulate trading strategies using statistical modeling.",
-    image: "/project1.jpg",
-    live: "#",
-    source: "#",
+      "Developed a secure password generation tool with customizable length and character settings to improve online security.",
+    image: "/password-generator.png",
+    live: "https://sapphire14s.github.io/password-generator/",
+    source: "https://github.com/Sapphire14S/password-generator",
+  },
+  {
+    title: "My Portfolio",
+    description:
+      "Designed and developed a modern portfolio website to showcase projects, skills, achievements, and professional experience.",
+    image: "/my-portfolio.png",
+    live: "https://shivank-kumar.vercel.app/",
+    source: "https://github.com/Sapphire14S/shivank-portfolio",
   }
 ];
 

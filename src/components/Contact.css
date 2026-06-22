@@ -244,6 +244,7 @@
 
 .message-form textarea {
   resize: vertical;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 /* ================= BUTTON ================= */

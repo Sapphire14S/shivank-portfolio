@@ -101,19 +101,19 @@ export default function Contact() {
               </a>
 
               <a
-                href="https://codeforces.com/profile/Coherent14S"
-                target="_blank"
-                rel="noreferrer"
-              >
-                Codeforces
-              </a>
-
-              <a
                 href="https://atcoder.jp/users/Rare14S"
                 target="_blank"
                 rel="noreferrer"
               >
                 AtCoder
+              </a>
+
+              <a
+                href="https://codeforces.com/profile/Coherent14S"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Codeforces
               </a>
 
               <a

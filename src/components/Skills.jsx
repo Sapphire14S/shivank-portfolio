@@ -7,15 +7,34 @@ const skillsData = [
   },
 
   {
-    title: "Frontend",
-    skills: ["HTML", "CSS", "ReactJS"],
+    title: "Achievements",
+    skills: [
+      "Rank ~644 among 28,000+ participants in CF Round 1062 (Div. 4)",
+      "CF Max Rating: 1154"
+    ],
   },
 
   {
-    title: "Backend",
-    skills: ["Node.js", "Express.js", "REST APIs"],
+    title: "Development",
+    skills: ["HTML", "CSS", "ReactJS", "Node.js", "Express.js", "REST APIs"],
   },
 
+  {
+    title: "Computer Science & Mathematics",
+    skills: [
+      "Data Structures",
+      "Algorithms",
+      "OOPs",
+      "DBMS",
+      "Operating Systems",
+      "Discrete Mathematics",
+      "Probability & Statistics",
+      "Linear Algebra",
+      "Calculus",
+      "Optimization Techniques"
+    ],
+  },
+  
   {
     title: "Databases",
     skills: ["MySQL"],
@@ -23,19 +42,9 @@ const skillsData = [
 
   {
     title: "Tools & Platforms",
-    skills: ["Git", "GitHub", "Linux", "VS Code"],
+    skills: ["Git", "GitHub", "Linux", "VS Code", "LaTeX"],
   },
 
-  {
-    title: "Computer Science",
-    skills: [
-      "Data Structures",
-      "Algorithms",
-      "OOPs",
-      "DBMS",
-      "Operating Systems",
-    ],
-  },
 ];
 
 export default function Skills() {
@@ -83,6 +92,7 @@ export default function Skills() {
 
             <div className="skill-tags">
 
+              <span>Artificial Intelligence</span>
               <span>Machine Learning</span>
               <span>Distributed Systems</span>
               <span>System Design</span>
@@ -107,15 +117,7 @@ export default function Skills() {
               </a>
               
               <a
-                href="#"
-                target="_blank"
-                rel="noreferrer"
-              >
-                Codeforces
-              </a>
-
-              <a
-                href="https://"
+                href="https://atcoder.jp/users/Rare14S"
                 target="_blank"
                 rel="noreferrer"
               >
@@ -123,7 +125,15 @@ export default function Skills() {
               </a>
 
               <a
-                href="#"
+                href="https://codeforces.com/profile/Coherent14S"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Codeforces
+              </a>
+
+              <a
+                href="https://leetcode.com/u/Quartz14S/"
                 target="_blank"
                 rel="noreferrer"
               >
