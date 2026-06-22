@@ -1,34 +1,15 @@
-# 🌐 Personal Portfolio
+# Shivank Kumar Portfolio
 
-A personal portfolio website built using **React + Vite** to showcase my projects, skills, and experience.
+This repository contains my personal portfolio website.
 
-## 🚀 Live Demo
+The website showcases my projects, technical skills, achievements, and experiences in software development. It serves as a central place to learn more about my work, explore featured projects, and get in touch.
 
-https://your-portfolio-link.com
+## Live Website
 
-## 🛠️ Tech Stack
+https://shivank-kumar.vercel.app/
 
-* React
-* Vite
-* JavaScript
-* HTML & CSS
+## Author
 
-## ⚙️ Run Locally
+Shivank Kumar
 
-```bash
-git clone https://github.com/your-username/your-repo-name.git
-cd your-repo-name
-npm install
-npm run dev
-```
-
-## 📌 Features
-
-* Responsive design
-* Fast performance
-* Clean UI
-
-## 📫 Contact
-
-* GitHub: https://github.com/your-username
-* LinkedIn: https://linkedin.com/in/your-profile
+GitHub: https://github.com/Sapphire14S
