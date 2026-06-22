@@ -15,7 +15,7 @@ const skillsData = [
   },
 
   {
-    title: "Development",
+    title: "Development", 
     skills: ["HTML", "CSS", "ReactJS", "Node.js", "Express.js", "REST APIs"],
   },
 
