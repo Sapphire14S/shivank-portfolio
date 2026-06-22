@@ -25,6 +25,22 @@ const projectsData = [
     live: "#",
     source: "#",
   },
+  {
+    title: "Quantitative Analysis Tool",
+    description:
+      "A data-driven analytics dashboard built to explore financial datasets and simulate trading strategies using statistical modeling.",
+    image: "/project1.jpg",
+    live: "#",
+    source: "#",
+  },
+  {
+    title: "Quantitative Analysis Tool",
+    description:
+      "A data-driven analytics dashboard built to explore financial datasets and simulate trading strategies using statistical modeling.",
+    image: "/project1.jpg",
+    live: "#",
+    source: "#",
+  }
 ];
 
 export default function Projects() {
