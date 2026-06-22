@@ -10,7 +10,7 @@ const skillsData = [
     title: "Achievements",
     skills: [
       "Rank ~644 among 28,000+ participants in CF Round 1062 (Div. 4)",
-      "CF Max Rating: 1154"
+      // "CF Max Rating: 1154"
     ],
   },
 
