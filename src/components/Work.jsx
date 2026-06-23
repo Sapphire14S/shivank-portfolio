@@ -1,46 +1,46 @@
 import "./Work.css";
 
 const workData = [
-  {
-    company: "Tech Innovations Lab",
-    role: "Software Developer Intern",
-    duration: "May 2025 – Present",
-    logo: "/company1.png",
-    points: [
-      "Developed modular web components using React and modern JavaScript.",
-      "Optimized application performance and reduced page load time by improving API handling.",
-    ],
-  },
-  {
-    company: "Data Systems Inc.",
-    role: "Backend Developer Intern",
-    duration: "Jan 2025 – Apr 2025",
-    logo: "/company2.jpg",
-    points: [
-      "Built RESTful backend APIs supporting scalable data processing workflows.",
-      "Improved database query efficiency leading to faster response times.",
-    ],
-  },
-  {
-    company: "NextGen Software",
-    role: "Software Engineering Intern",
-    duration: "Jun 2024 – Dec 2024",
-    logo: "/company3.png",
-    points: [
-      "Implemented core backend services for internal developer tools.",
-      "Collaborated with engineering teams to enhance system reliability and maintainability.",
-    ],
-  },
-  {
-    company: "Algorithmic Research Lab",
-    role: "Research Assistant",
-    duration: "Jan 2024 – May 2024",
-    logo: "/company4.jpg",
-    points: [
-      "Worked on algorithm optimization and computational efficiency experiments.",
-      "Developed scripts for data analysis and performance benchmarking.",
-    ],
-  },
+  // {
+  //   company: "Tech Innovations Lab",
+  //   role: "Software Developer Intern",
+  //   duration: "May 2025 – Present",
+  //   logo: "/company1.png",
+  //   points: [
+  //     "Developed modular web components using React and modern JavaScript.",
+  //     "Optimized application performance and reduced page load time by improving API handling.",
+  //   ],
+  // },
+  // {
+  //   company: "Data Systems Inc.",
+  //   role: "Backend Developer Intern",
+  //   duration: "Jan 2025 – Apr 2025",
+  //   logo: "/company2.jpg",
+  //   points: [
+  //     "Built RESTful backend APIs supporting scalable data processing workflows.",
+  //     "Improved database query efficiency leading to faster response times.",
+  //   ],
+  // },
+  // {
+  //   company: "NextGen Software",
+  //   role: "Software Engineering Intern",
+  //   duration: "Jun 2024 – Dec 2024",
+  //   logo: "/company3.png",
+  //   points: [
+  //     "Implemented core backend services for internal developer tools.",
+  //     "Collaborated with engineering teams to enhance system reliability and maintainability.",
+  //   ],
+  // },
+  // {
+  //   company: "Algorithmic Research Lab",
+  //   role: "Research Assistant",
+  //   duration: "Jan 2024 – May 2024",
+  //   logo: "/company4.jpg",
+  //   points: [
+  //     "Worked on algorithm optimization and computational efficiency experiments.",
+  //     "Developed scripts for data analysis and performance benchmarking.",
+  //   ],
+  // },
 ];
 
 export default function Work() {
