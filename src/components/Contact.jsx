@@ -49,7 +49,7 @@ export default function Contact() {
             <h3>Email</h3>
 
             <p>
-              shivank.orbit@gmail.com
+              vankkumar14@gmail.com
             </p>
 
             <p>
