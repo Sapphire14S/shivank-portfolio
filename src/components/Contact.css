@@ -90,6 +90,11 @@
   line-height: 1.7;
 }
 
+.contact-card a:hover {
+  /* color: #00e5ff; */
+  color: white;
+}
+
 /* ================= SOCIAL ICONS ================= */
 
 .social-icons {

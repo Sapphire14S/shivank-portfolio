@@ -49,11 +49,15 @@ export default function Contact() {
             <h3>Email</h3>
 
             <p>
-              vankkumar14@gmail.com
+              <a href="mailto:vankkumar14@gmail.com">
+                vankkumar14@gmail.com
+              </a>
             </p>
 
             <p>
-              shivank.kumar24b@iiitg.ac.in
+              <a href="mailto:shivank.kumar24b@iiitg.ac.in">
+                shivank.kumar24b@iiitg.ac.in
+              </a>
             </p>
 
           </div>
