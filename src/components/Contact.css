@@ -7,7 +7,8 @@
 
 .contact-section {
   padding: 120px 20px;
-  background: #ffffff;
+  /* background: #ffffff; */
+  background:  #e5e5e5;
 
   display: flex;
   justify-content: center;
