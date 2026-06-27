@@ -49,7 +49,7 @@ export default function Contact() {
             <h3>Email</h3>
 
             <p>
-              <a href="mailto:vankkumar14@gmail.com">
+              <a href="mailto:shivank14.kumar@gmail.com">
                 shivank14.kumar@gmail.com
               </a>
             </p>
