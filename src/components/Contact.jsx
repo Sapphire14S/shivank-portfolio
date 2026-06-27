@@ -50,7 +50,7 @@ export default function Contact() {
 
             <p>
               <a href="mailto:vankkumar14@gmail.com">
-                vankkumar14@gmail.com
+                shivank14.kumar@gmail.com
               </a>
             </p>
 
