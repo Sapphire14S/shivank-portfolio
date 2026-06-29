@@ -97,7 +97,7 @@ export default function Contact() {
             <div className="coding-links">
 
               <a
-                href="https://codeforces.com/profile/Coherent14S"
+                href="https://github.com/Sapphire14S"
                 target="_blank"
                 rel="noreferrer"
               >
@@ -121,7 +121,7 @@ export default function Contact() {
               </a>
 
               <a
-                href="https://leetcode.com/u/Arcane14S/"
+                href="https://leetcode.com/u/Quartz14S/"
                 target="_blank"
                 rel="noreferrer"
               >
