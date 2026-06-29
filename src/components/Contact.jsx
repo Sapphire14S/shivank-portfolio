@@ -78,7 +78,7 @@ export default function Contact() {
               </a>
 
               <a
-                href="https://instagram.com/yourusername"
+                href="https://instagram.com/"
                 target="_blank"
                 rel="noreferrer"
               >
